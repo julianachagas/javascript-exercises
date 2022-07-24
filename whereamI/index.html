@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where am I?</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Enter your GPS coordinates and check where you are</h1>
+      <form id="get-location-form">
+        <div class="form-groups">
+          <div class="form-group">
+            <label for="latitude">Latitude</label>
+            <input type="text" name="latitude" id="latitude" />
+          </div>
+          <div class="form-group">
+            <label for="longitude">Longitude</label>
+            <input type="text" name="longitude" id="longitude" />
+          </div>
+        </div>
+        <button type="submit" class="btn">Where am I?</button>
+      </form>
+      <div class="location"></div>
+      <div class="error-message"></div>
+      <div class="country"></div>
+    </main>
+  </body>
+</html>
