@@ -16,7 +16,7 @@ function getBitcoinValue(currency) {
 
 function updateUI(value, symbol) {
   const result = document.querySelector('.result');
-  result.textContent = `${currencySymbols[symbol]} ${value}`;
+  result.textContent = `${currencySymbols[symbol]} ${value.toFixed(2)}`;
 }
 
 const selectForm = document.forms['select-currency-form'];
