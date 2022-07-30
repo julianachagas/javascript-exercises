@@ -23,13 +23,13 @@ A collection of mini-projects and exercises I did to practice HTML, CSS, and Jav
 
 <br>
 
-- **Country Data**: this app gets information about the country entered by the user. It displays a card with country's name, region, subregion, capital, flag, population, languages, and currencies. It uses the [Rest Countries API](https://restcountries.com/).
+- **Country Data**: this app gets information about the country entered by the user. It displays a card with the country's name, region, subregion, capital, flag, population, languages, and currencies. It uses the [Rest Countries API](https://restcountries.com/).
   - Concepts practiced: Async JS, API, DOM manipulation
   - [Live project](https://codepen.io/julianachagas/full/yLKoNKw)
 
 <br>
 
-- **Where am I**: this is a coding challenge from The Complete JavaScript Course - From Zero to Expert by [Jonas Schmedtmann](https://www.udemy.com/course/the-complete-javascript-course/). This app displays a card with information about a country based on the GPS coordinates (latitude and longitude) provided by the user. Two APIs are used in this project: the [BigDataCloud’s Reverse Geocoding API](https://www.bigdatacloud.com/docs/api/reverse-geocode-to-city-api) is used to get the location (city and country) based on the provided coordinates (reverse geoding) and the [Rest Countries API](https://restcountries.com/) is used to get the data about the country previously received from the other API.
+- **Where am I**: this app displays the location (city and country) based on the GPS coordinates (latitude and longitude) provided by the user. It also displays a card with information about the country. Two APIs are used in this project: the [BigDataCloud’s Reverse Geocoding API](https://www.bigdatacloud.com/docs/api/reverse-geocode-to-city-api) is used to get the location based on the provided coordinates (reverse geoding) and the [Rest Countries API](https://restcountries.com/) is used to get the data about the country previously received from the other API. This project is a coding challenge from The Complete JavaScript Course - From Zero to Expert by [Jonas Schmedtmann](https://www.udemy.com/course/the-complete-javascript-course/).
   - Concepts practiced: Async JS, API, DOM manipulation
   - [Live project](https://codepen.io/julianachagas/full/gOeRymp)
 
