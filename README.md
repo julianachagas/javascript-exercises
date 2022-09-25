@@ -29,6 +29,12 @@ A collection of mini-projects and exercises I did to practice HTML, CSS, and Jav
 
 <br>
 
+- **Guess My Number**: the goal of this project is to guess a secret number that is between 1 and 20. The user can type a number in the input field, click the 'check' button, and they'll get a feedback message that says if the guess was too low, too high, or correct. The user starts with a score of 10 and after each failed guess, the score decreases by 1. The user can start a new round by clicking on the 'again' button. This project is part of the Complete JavaScript Course - From Zero to Expert by [Jonas Schmedtmann](https://www.udemy.com/course/the-complete-javascript-course/).
+  - Concepts practiced: DOM Manipulation, Event Listeners
+  - [Live project](https://codepen.io/julianachagas/full/ZEoaWxE)
+
+<br>
+
 - **Where am I**: this app displays the location (city and country) based on the GPS coordinates (latitude and longitude) provided by the user. It also displays a card with information about the country. Two APIs are used in this project: the [BigDataCloud’s Reverse Geocoding API](https://www.bigdatacloud.com/docs/api/reverse-geocode-to-city-api) is used to get the location based on the provided coordinates (reverse geoding) and the [Rest Countries API](https://restcountries.com/) is used to get the data about the country previously received from the other API. This project is a coding challenge from The Complete JavaScript Course - From Zero to Expert by [Jonas Schmedtmann](https://www.udemy.com/course/the-complete-javascript-course/).
   - Concepts practiced: Async JS, API, DOM manipulation
   - [Live project](https://codepen.io/julianachagas/full/gOeRymp)
